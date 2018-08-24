@@ -1,0 +1,100 @@
+/*
+.base {
+    background-color: #F6F6F6;
+    font-family: "Muli", sans-serif;
+    font-size: 1rem;
+    color: #43525A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.menu {
+        background-color:rgb(242, 242, 242);
+        height: 10%;
+ }
+ .menu1{
+
+ 	float:left;
+ 	width: 45%;
+ }
+ .menu2{
+ 	float: left;
+ 	width: 20%;
+ }
+ .menu3{
+ 	float: right;
+ 	width: 30%;
+ }
+ .hLinkMenu{
+ 	text-decoration: none;
+ 	color: #43525A;
+ 	border-bottom: 0.14286rem solid #28A5BE;
+ }
+ .menu4{
+ 	float: right;
+ 	width: 5%;
+ }
+.car{
+	padding-top: 15%
+}
+.linkMenu {
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateY(0);
+}
+.linkMenu:hover {
+    transform: translateY(-0.35714rem);
+    color: #28A5BE;
+}
+nav ul li{
+	float:left;
+	margin-left: 20px;
+	list-style:none; 
+}
+.seccion {
+        background-color:rgb(238, 237, 235);
+        height: 90%;
+ }
+.f1l{
+	
+ 	width: 25%;
+ 	float: left;
+}
+.f1r{
+ 	width: 75%;
+ 	float: left;
+ 	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+.titulos{
+	font-size: 3rem;
+}
+.text{
+	text-align: justify;
+}
+*/
+
+section p {
+  color: blue;
+}
+ 
+section > p {
+  background-color: yellow;
+}
+ 
+h2 + p {
+  text-transform: uppercase;
+}
+ 
+h2 ~ p {
+  border: 1px dashed black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+

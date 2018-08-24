@@ -1,0 +1,115 @@
+.base {
+    background-color: #F6F6F6;
+    font-family: "Muli", sans-serif;
+    font-size: 1rem;
+    color: #43525A;
+}
+.menu {
+        background-color:rgb(242, 242, 242);
+        height: 10%;
+ }
+ .menu1{
+ 	float:left;
+ 	width: 45%;
+ }
+ .menu2{
+ 	float: left;
+ 	width: 20%;
+ }
+ .menu3{
+ 	float: right;
+ 	width: 30%;
+ }
+ .menu4{
+ 	float: right;
+ 	width: 5%;
+ }
+ .hLinkMenu{
+    text-decoration: none;
+    color: #43525A;
+    border-bottom: 0.14286rem solid #28A5BE;
+ }
+.car{
+	padding-top: 15%
+}
+.logo{
+    height: 70%
+    text-align:center;
+}
+.linkMenu {
+    text-decoration: none;
+    transform: translateY(0);
+}
+.linkMenu:hover {
+    transform: translateY(-0.35714rem);
+    color: #28A5BE;
+}
+.visibleDesktop{
+        display:block;
+}
+.visibleMobile{
+        display:none;
+}
+nav ul li{
+	float:left;
+	margin-left: 20px;
+	list-style:none; 
+}
+.seccion {
+        background-image: url("../img/modulos-web-hero-bg-flip.0efcc100.jpg");
+        background-position: center; 
+        height: 90%;
+ }
+.f1l{
+	
+ 	width: 25%;
+ 	float: left;
+}
+.f1r{
+ 	width: 75%;
+ 	float: left;
+ 	overflow: hidden;
+}
+.seccionImg{
+   height: 90% 
+}
+.clear{
+	clear: both;
+}
+.titulos{
+	font-size: 3rem;
+}
+.text{
+	text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+
+    .visibleDesktop{
+        display:none;
+    }
+    .visibleMobile{
+        display:block;
+    }
+    .menu1{ 
+        width: 25%;
+        text-align: left;
+    } 
+    .menu2,.menu3{ 
+        width: 35%;
+        float: left;
+    }
+    .car{
+        height: 50%
+    }
+    nav ul li{
+        list-style-type: none;
+    margin-left: 0px;
+    text-align: left;
+    }
+    .titulos{
+    font-size: 2rem;
+}
+    
+}
+
