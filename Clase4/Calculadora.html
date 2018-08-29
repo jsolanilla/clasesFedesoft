@@ -1,0 +1,76 @@
+<hml>
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            My JS experiment - Clase 4
+        </title>
+        <link href="css\style-test.css" rel="stylesheet" type="text/css">
+            <script>
+                //Funciones
+                function suma(){
+                	var var1= document.getElementById("nro1").value;
+					var var2= document.getElementById("nro2").value;
+                	alert(parseInt(var1)+parseInt(var2));					
+					//return var1 + var2;
+				}
+				function resta(){
+                	var var1= document.getElementById("nro1").value;
+					var var2= document.getElementById("nro2").value;
+					alert(parseInt(var1) - parseInt(var2));
+				}
+				function mult(){
+                	var var1= document.getElementById("nro1").value;
+					var var2= document.getElementById("nro2").value;
+					alert (parseInt(var1) * parseInt(var2));
+				}
+				function div(){
+                	var var1= document.getElementById("nro1").value;
+					var var2= document.getElementById("nro2").value;
+					if(parseInt(var2) > 0){
+						alert (parseInt(var1) / parseInt(var2));
+					}
+					else{
+						alert ("no puede dividir por 0");
+					}
+				}
+				
+                
+
+				/*var variable1 = prompt("ingrese texto 1:");
+				var variable2 = prompt("ingrese texto 2:");
+
+				var resSum=suma(parseInt(variable1),parseInt(variable2));
+				console.log  ("la suma es: "+resSum);
+				
+				console.log ("la resta es: "+resta(parseInt(variable1),parseInt(variable2)));
+				console.log ("la multiplicacion es: "+mult(parseInt(variable1),parseInt(variable2)));
+				console.log ("la division es: "+div(parseInt(variable1),parseInt(variable2)));*/
+            </script>
+        </link>
+    </head>
+    <body>
+        <h1>
+            Calculadora Fedesoft
+        </h1>
+        <label>
+            Ingrese Número:
+            <input id="nro1" name="nro1" value="">
+            </input>
+        </label>
+        <br/>
+        <label>
+            Ingrese Número:
+            <input id="nro2" name="nro2" value="">
+            </input>
+        </label>
+        <input id="sumaB" onclick="suma()" type="button" value="+"/>
+        <input id="restaB" onclick="resta()" type="button" value="-"/>
+        <input id="divB" onclick="div()" type="button" value="/"/>
+        <input id="multiB" onclick="mult()" type="button" value="x"/>
+        Resultado:
+        <label>
+            <input name="resultado" type="text" value="resultado">
+            </input>
+        </label>
+    </body>
+</hml>
